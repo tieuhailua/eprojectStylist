@@ -1,0 +1,99 @@
+.product{
+    margin: auto;
+    text-align: center;
+    background: #E3DEC1;
+}
+.product-name{
+    font-weight: bold;
+    padding: 20px;
+    font-size: 25px;
+}
+.product-img{
+    width: 380px;
+}
+.product .fa-star{
+    font-size: 40px;
+    margin-top: 10px;
+}
+.fa-star:hover{
+    text-shadow: 0px 0px 15px #B94629;
+}
+.checked{
+    color: #47AFAF;
+}
+.product-description{
+    width: 80%;
+    margin: auto;
+}
+.comment-list{
+    width: 80%;
+    text-align: left;
+    margin:30px auto 0px;
+    padding-bottom: 20px;
+}
+.comment{
+    width: 96%;
+}
+.comment-item{
+    display: flex;
+    margin: 10px 30px;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+}
+.comment-item:hover{
+	background: #bfb9c54f;
+}
+.comment-item img{
+    margin: 7px 0px 0px 7px;
+    width: 40px;
+    height: 40px;
+	clip-path: circle();    
+}
+.comment-item-detail .fa-star{
+    font-size: 20px;
+
+}
+.comment-item-detail{
+    word-break: break-all;
+    margin-left: 20px;
+}
+.comment-item-detail.star-rating{
+    font-size: 10px;
+}
+.name{
+    font-size: 18px;
+    font-weight: bold;
+}
+.comment-icon{
+    width: 40px;
+    height: 40px;
+	clip-path: circle(); 
+}
+.add-comment{
+	margin-left: 20px;
+}
+.add-comment .add-comment-input{
+	width: 600px;
+	padding: 5px;
+	border-radius: 5px;
+}
+.add-comment .fa-star{
+    font-size: 20px;
+}
+.add-comment .add-comment-submit{
+	padding: 7px;
+	border-radius: 5px;
+	border: 0px;
+    font-weight: bold;
+    color: white;
+	background: #B94629;
+}
+.add-comment-submit:hover{
+	background: #E89F65;
+}
+td .star-rating .fa-star{
+    margin-top: 0px;
+}
+.dropdown-content{
+    border: 1px solid black;
+}

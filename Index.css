@@ -1,0 +1,130 @@
+*{
+	font-family: tahoma;
+}
+a{
+	text-decoration: none;
+}
+.logo{
+	width: 150px;
+	clip-path: circle();
+}
+header{
+	background: #B94629;
+	/*height: 150px;*/
+	font-weight: bold;
+}
+.navigation{
+	display: flex;
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+.navigation-center{
+	margin: auto;
+	display: flex;
+}
+.navigation-center div{
+	padding: 0px 8px;
+}
+.navigation-center a{
+	margin-left: 9px;
+	color: black;
+}
+.dropdown {
+ 	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  text-align: left;
+  position: absolute;
+  background-color: #E3DEC1;
+  border: 1px solid black;
+  border-radius: 9px;
+  min-width: 160px;
+  padding: 8px 6px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a:hover{
+	color: #B94629;
+}
+.navigation-right{
+	margin: auto;
+	margin-right: 0px;
+	display: flex;
+}
+.navigation-right a{
+	margin-left: 3px;
+	color: black;
+	padding: 6px;
+}
+.navigation-right div{
+	padding: 8px 10px;
+}
+.content{
+	margin: auto;
+	background: #E3DEC1;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+}
+.footer-item{
+	padding: 20px 60px;
+	width: 25%;
+	background: #B94629;
+	text-align: center;
+}
+.footer-item img{
+	width: 84px;
+	height: 84px;
+}
+.footer-item:hover{
+	font-weight: bold;
+	background: #E89F65;
+}
+.loginpanel{
+	border: 3px solid black;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 10;	
+	top: 28%;
+	left: 30%;
+	background: #ece1a0;	
+}
+.loginpanel h2{
+	margin: 0px;
+}
+.loginpanel table{
+	padding: 50px 150px;
+}
+.loginpanel input{
+	width: 200px;
+	height: 25px;
+}
+.loginpanel button{
+	width: 80px;
+	height: 25px;
+	border-radius: 5px;
+	border: 0px;
+    font-weight: bold;
+    color: white;
+	background: #B94629;
+}
+.loginpanel button:hover{
+	background: #E89F65;
+}
+.show{
+	display: block;
+	position: fixed;
+}
+.unshow{
+	display: none;
+}
+.fa.fa-times{
+	margin-left: 95.6%;
+	font-size: 30px;
+}
